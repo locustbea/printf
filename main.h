@@ -24,6 +24,7 @@ typedef struct my_flags
 } my_flags_t;
 
 int (*my_getp(char s))(va_list, my_flags_t *);
-int my_getf(char s, my_flags_t *b);
+int my_getf(char a, my_flags_t *b);
+char *my_conv(unsigned long int n, int b, int lcase);
 
 #endif
