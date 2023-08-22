@@ -10,7 +10,7 @@
 
 int (*my_getp(char s))(va_list, my_flags_t *)
 {
-	my_ph arrayf[] = {
+	my_ph func_arr[] = {
 	{'%', percent_p},
 	{'b', binary_p},
 	{'c', character_p},
@@ -28,10 +28,10 @@ int (*my_getp(char s))(va_list, my_flags_t *)
 	};
 	
 	int my_flags = 14;
-	register int j;
+	register int i;
 
-	for (j = 0; j < my_flags; j++)
-	if (arrayf[j].c == s)
-	return (arrayf[j].b);
+	for (i = 0; i < my_flags; i++)
+	if (func_arr[i].c == s)
+	return (func_arr[i].b);
 	return (NULL);
 }
