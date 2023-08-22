@@ -2,13 +2,6 @@
 #define MAIN_H
 <<<<<<< HEAD
 #include <stdio.h>
-
-/* PROTOTYPES */
-int_printf(const char *format, ...);
-
-#endif /* end of MAIN_H */
-=======
-
 #include <stdlib.h>
 #include <stdarg.h>
 
@@ -58,4 +51,3 @@ int hexa_p(va_list l, my_flags_t *b);
 int hexabig_p(va_list l, my_flags_t *b);
 
 #endif
->>>>>>> ea793ce43cf626b68897a48ac9d1d5098d47c413
