@@ -67,7 +67,7 @@ int hexabig_p(va_list l, my_flags_t *b)
 	char *str = my_conv(n, 16, 0);
 	int counter = 0;
 
-	if (b->my_hash == 1 && str[0] != '0');
+	if (b->my_hash == 1 && str[0] != '0')
 	counter += _puts('0X');
 	counter += _puts(str);
 	return (counter);

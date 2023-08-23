@@ -13,7 +13,7 @@ void my_numbp(int n)
 	{
 	_putchar('-');
 	num1 = -n;
-	} 
+	}
 	else
 	num1 = n;
 	if (num1 / 10)
@@ -56,7 +56,7 @@ int integer1_p(va_list l, my_flags_t *b)
 	int n = va_arg(l, int);
 	int r = my_digitcounter(n);
 
-	if (b->my_space = 1 &&  b->my_addsign == 0 && n >= 0)
+	if (b->my_space == 1 && b->my_addsign == 0 && n >= 0)
 	r += _putchar(' ');
 	if (b->my_addsign == 1 && n >= 0)
 	r += _putchar('+');

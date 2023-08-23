@@ -18,7 +18,7 @@ int my_getf(char s, my_flags_t *b)
 	b->my_space = 1;
 	c = 1;
 	break;
-	
+
 	case '#':
 	b->my_hash = 1;
 	c = 1;

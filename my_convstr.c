@@ -19,11 +19,10 @@ char *my_conv(unsigned long int n, int b, int lcase)
 	: "0123456789ABCDEF";
 	ptr = &buffer[49];
 	*ptr = '\0';
-	do
-	{
+	do {
 	*--ptr = r[n % b];
 	n /= b;
-	}
-	while (n != 0);
+	} while
+		(n != 0);
 	return (ptr);
 }
