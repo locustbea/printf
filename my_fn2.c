@@ -11,7 +11,7 @@
  * Return: Number of chars printed.
  */
 int my_unsignedp(va_list my_stype, char my_buff[],
-	int flags, int breadth, int my_pre, int size)
+int flags, int breadth, int my_pre, int size)
 {
 	int i = BUFF_SIZE - 2;
 	unsigned long int num = va_arg(my_stype, unsigned long int);

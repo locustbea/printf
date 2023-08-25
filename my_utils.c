@@ -75,7 +75,7 @@ long int my_convlong(long int num, int size)
  *
  * Return: Casted value of num
  */
-long int my_convunsigned(unsigned long int num, int size)
+long int my_convunsgned(unsigned long int num, int size)
 {
 	if (size == my_longs)
 		return (num);
