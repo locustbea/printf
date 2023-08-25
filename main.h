@@ -110,6 +110,6 @@ int my_hexcodeapp(char, char[], int);
 int my_digit(char);
 
 long int my_convlong(long int num, int size);
-long int my_convunsigned(unsigned long int num, int size);
+long int my_convunsgned(unsigned long int num, int size);
 
 #endif
