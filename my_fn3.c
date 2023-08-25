@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * my_pointerp - Prints the value of a pointer variable
  * @my_stype: List a of arguments

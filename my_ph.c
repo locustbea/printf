@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * my_ph - Prints an argument based on its type
  * @my_format: Formatted string in which to print the arguments.

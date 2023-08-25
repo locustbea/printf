@@ -1,5 +1,6 @@
 #include "main.h"
 
+
 /**
  * my_characterp - Prints a char
  * @my_stype: List a of arguments

@@ -1,6 +1,7 @@
 #include "main.h"
 
 
+
 /**
  * my_charwrite - Prints a string
  * @c: char my_stype.
