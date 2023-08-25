@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * my_getp - this func checks the conversion specifier passed to
+ * my_getp - this func checks the conversion specifier passed to 
  * _printf and selects the appropriate printing function
  * @s: this character stores the conversion specifier
  *
@@ -26,9 +26,8 @@ int (*my_getp(char s))(va_list, my_flags_t *)
 	{'x', hexa_p},
 	{'X', hexabig_p},
 	};
-
+	
 	int my_flags = 14;
-
 	register int i;
 
 	for (i = 0; i < my_flags; i++)

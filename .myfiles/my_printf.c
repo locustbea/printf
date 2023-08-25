@@ -14,13 +14,11 @@ int _printf(const char *format, ...)
 	const char *pf;
 	int (*my_printfunction)(va_list, my_flags_t *);
 	va_list my_args;
-
 	register int counter = 0;
-
 	my_flags_t my_flags = {0, 0, 0};
 
 	va_start(my_args, format);
-
+	
 	if ((format[0] == '%' && !format[1]) || !format)
 	return (-1);
 	if (format[0] == '%' && format[1] == ' ' && !format[2])

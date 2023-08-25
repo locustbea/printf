@@ -11,7 +11,6 @@ int address_p(va_list l, my_flags_t *b)
 {
 	unsigned long int a = va_arg(l, unsigned long int);
 	char *str;
-
 	register int counter = 0;
 
 	(void)b;
