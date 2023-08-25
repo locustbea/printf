@@ -70,7 +70,7 @@ long int my_convlong(long int num, int size)
 }
 
 /**
- * my_convunsigned - Casts a number to the specified size
+ * my_convunsgned - Casts a number to the specified size
  * @num: Number to be casted
  * @size: Number indicating the type to be casted
  *
